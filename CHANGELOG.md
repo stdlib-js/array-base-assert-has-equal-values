@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`6bbe26f`](https://github.com/stdlib-js/stdlib/commit/6bbe26f751894cadb15279ceb6cf739475bb0612) - **test:** fix descriptions _(by Athan Reines)_
 -   [`58d6b23`](https://github.com/stdlib-js/stdlib/commit/58d6b233f341a5cee452bd74953d260482242931) - **style:** disable lint rule _(by Athan Reines)_
 -   [`4cdf27e`](https://github.com/stdlib-js/stdlib/commit/4cdf27e87b904ab762b3e7c1034dd27f7466383c) - **feat:** add `array/base/assert/has-equal-values` _(by Athan Reines)_
 
