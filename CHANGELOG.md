@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-18)
+## Unreleased (2025-12-02)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`68083d6`](https://github.com/stdlib-js/stdlib/commit/68083d60de8199eb42bf63fbae39838e3b23bdd7) - **bench:** refactor to use string interpolation in `array/base/assert/has-equal-values` [(#8691)](https://github.com/stdlib-js/stdlib/pull/8691) _(by Rohit R Bhat)_
 -   [`73a198b`](https://github.com/stdlib-js/stdlib/commit/73a198b42551ce9aaa142a17e9c77578205628d5) - **test:** add tests _(by Athan Reines)_
 -   [`6bbe26f`](https://github.com/stdlib-js/stdlib/commit/6bbe26f751894cadb15279ceb6cf739475bb0612) - **test:** fix descriptions _(by Athan Reines)_
 -   [`58d6b23`](https://github.com/stdlib-js/stdlib/commit/58d6b233f341a5cee452bd74953d260482242931) - **style:** disable lint rule _(by Athan Reines)_
@@ -37,9 +38,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Rohit R Bhat
 
 </section>
 
