@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import hasEqualValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-has-equal-values@esm/index.mjs';
+import hasEqualValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-has-equal-values@v0.1.0-esm/index.mjs';
 ```
 
 #### hasEqualValues( x, y )
@@ -101,7 +101,7 @@ var bool = hasEqualValues( x, y );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@esm/index.mjs';
-import hasEqualValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-has-equal-values@esm/index.mjs';
+import hasEqualValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-has-equal-values@v0.1.0-esm/index.mjs';
 
 var buf = discreteUniform( 10, 0, 10 );
 // returns <Float64Array>
