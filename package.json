@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-assert-has-equal-values",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Test if two arrays have equal values.",
   "license": "Apache-2.0",
   "author": {
@@ -49,9 +49,9 @@
   "devDependencies": {
     "@stdlib/array-base-accessor": "^0.2.2",
     "@stdlib/array-base-zeros": "^0.2.2",
-    "@stdlib/array-bool": "^0.1.0",
-    "@stdlib/array-complex128": "^0.3.0",
-    "@stdlib/array-complex64": "^0.3.0",
+    "@stdlib/array-bool": "^0.1.1",
+    "@stdlib/array-complex128": "^0.3.1",
+    "@stdlib/array-complex64": "^0.3.1",
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/assert-is-boolean": "^0.2.2",
     "@stdlib/math-base-special-pow": "^0.3.0",
