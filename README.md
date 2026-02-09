@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import hasEqualValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-has-equal-values@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-assert-has-equal-values/tags). For example,
+
+```javascript
 import hasEqualValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-has-equal-values@v0.1.1-deno/mod.js';
 ```
 
@@ -96,7 +101,7 @@ var bool = hasEqualValues( x, y );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@deno/mod.js';
-import hasEqualValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-has-equal-values@v0.1.1-deno/mod.js';
+import hasEqualValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-has-equal-values@deno/mod.js';
 
 var buf = discreteUniform( 10, 0, 10 );
 // returns <Float64Array>
