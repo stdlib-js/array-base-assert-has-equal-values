@@ -1,0 +1,5 @@
+"use strict";var m=function(a,r){return function(){try{return r||a((r={exports:{}}).exports,r),r.exports}catch(e){throw (r=0, e)}};};var d=m(function(P,h){
+var u=require('@stdlib/array-base-assert-is-complex128array/dist'),f=require('@stdlib/array-base-assert-is-complex64array/dist'),l=require('@stdlib/array-base-assert-is-booleanarray/dist'),v=require('@stdlib/array-base-arraylike2object/dist'),c=require('@stdlib/strided-base-reinterpret-complex128/dist'),q=require('@stdlib/strided-base-reinterpret-complex64/dist'),p=require('@stdlib/strided-base-reinterpret-boolean/dist');function o(a,r){var e;for(e=0;e<a.length;e++)if(a[e]!==r[e])return!1;return!0}function g(a,r){var e,i,s,n,t;for(e=a.data,i=r.data,s=a.accessors[0],n=r.accessors[0],t=0;t<e.length;t++)if(s(e,t)!==n(i,t))return!1;return!0}function A(a,r){var e,i,s,n,t;return a.length!==r.length?!1:(i=v(a),s=v(r),i.accessorProtocol||s.accessorProtocol?(e=2,l(a)?l(r)?o(p(a,0),p(r,0)):g(i,s):(u(a)?(n=c(a,0),e-=1):f(a)&&(n=q(a,0),e-=1),u(r)?(t=c(r,0),e-=1):f(r)&&(t=q(r,0),e-=1),e===0?o(n,t):g(i,s))):o(a,r))}h.exports=A
+});var B=d();module.exports=B;
+/** @license Apache-2.0 */
+//# sourceMappingURL=index.js.map
