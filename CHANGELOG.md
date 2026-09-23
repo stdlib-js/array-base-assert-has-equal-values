@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-21)
+## Unreleased (2026-09-23)
+
+<section class="features">
+
+### Features
+
+-   [`e6ef385`](https://github.com/stdlib-js/stdlib/commit/e6ef3852ca447bfd266c34dc8250b66c261a2096) - add float16 dtype support to `array/base/assert/*` [(#15453)](https://github.com/stdlib-js/stdlib/pull/15453)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`e6ef385`](https://github.com/stdlib-js/stdlib/commit/e6ef3852ca447bfd266c34dc8250b66c261a2096) - **feat:** add float16 dtype support to `array/base/assert/*` [(#15453)](https://github.com/stdlib-js/stdlib/pull/15453) _(by Gururaj Gurram)_
 -   [`00885d3`](https://github.com/stdlib-js/stdlib/commit/00885d3e6afd8118ce2b6e5f7a1c544d5b6d4ffb) - **bench:** refactor to use string interpolation in `array` [(#11411)](https://github.com/stdlib-js/stdlib/pull/11411) _(by Karan Anand, Athan Reines)_
 
 </details>
@@ -24,9 +35,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gururaj Gurram
 -   Karan Anand
 
 </section>
