@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-23)
+## Unreleased (2026-09-30)
 
 <section class="features">
 
 ### Features
 
+-   [`5945917`](https://github.com/stdlib-js/stdlib/commit/59459177f3a0662a39714b8b89be4f6aefd2eed0) - add `uint64` and `int64` support for `array/base/assert/has-equal-values` [(#14238)](https://github.com/stdlib-js/stdlib/pull/14238)
 -   [`e6ef385`](https://github.com/stdlib-js/stdlib/commit/e6ef3852ca447bfd266c34dc8250b66c261a2096) - add float16 dtype support to `array/base/assert/*` [(#15453)](https://github.com/stdlib-js/stdlib/pull/15453)
 
 </section>
@@ -22,6 +23,7 @@
 
 <details>
 
+-   [`5945917`](https://github.com/stdlib-js/stdlib/commit/59459177f3a0662a39714b8b89be4f6aefd2eed0) - **feat:** add `uint64` and `int64` support for `array/base/assert/has-equal-values` [(#14238)](https://github.com/stdlib-js/stdlib/pull/14238) _(by Divit Jain, Athan Reines)_
 -   [`e6ef385`](https://github.com/stdlib-js/stdlib/commit/e6ef3852ca447bfd266c34dc8250b66c261a2096) - **feat:** add float16 dtype support to `array/base/assert/*` [(#15453)](https://github.com/stdlib-js/stdlib/pull/15453) _(by Gururaj Gurram)_
 -   [`00885d3`](https://github.com/stdlib-js/stdlib/commit/00885d3e6afd8118ce2b6e5f7a1c544d5b6d4ffb) - **bench:** refactor to use string interpolation in `array` [(#11411)](https://github.com/stdlib-js/stdlib/pull/11411) _(by Karan Anand, Athan Reines)_
 
@@ -35,9 +37,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Divit Jain
 -   Gururaj Gurram
 -   Karan Anand
 

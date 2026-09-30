@@ -1,27 +1,8 @@
+"use strict";var G=function(e,r){return function(){try{return r||e((r={exports:{}}).exports,r),r.exports}catch(i){throw (r=0, i)}};};var m=G(function(R,O){
+var z=require('@stdlib/assert-is-little-endian/dist'),L,W,I;z===!0?(W=1,I=0):(W=0,I=1);L={HIGH:W,LOW:I};O.exports=L
+});var V=G(function(S,F){
+var A=require('@stdlib/array-base-arraylike2object/dist'),D=require('@stdlib/assert-is-between/dist'),T=require('@stdlib/array-base-assert-is-booleanarray/dist'),B=require('@stdlib/array-base-assert-is-complex128array/dist'),P=require('@stdlib/array-base-assert-is-complex64array/dist'),d=require('@stdlib/assert-is-int64array/dist'),J=require('@stdlib/assert-is-integer/dist').isPrimitive,g=require('@stdlib/assert-is-uint64array/dist'),b=require('@stdlib/strided-base-reinterpret-boolean/dist'),j=require('@stdlib/strided-base-reinterpret-complex128/dist'),C=require('@stdlib/strided-base-reinterpret-complex64/dist'),v=require('@stdlib/strided-base-reinterpret-int64/dist'),o=require('@stdlib/strided-base-reinterpret-uint64/dist'),E=require('@stdlib/number-uint64-base-number2words/dist').assign,U=require('@stdlib/number-int64-base-number2words/dist').assign,K=require('@stdlib/number-int32-base-signbit/dist'),s=m(),H=9223372036854776e3,_=18446744073709552e3,h=[0,0];function f(e,r){var i;for(i=0;i<e.length;i++)if(e[i]!==r[i])return!1;return!0}function k(e,r){var i,t,n,u,a;for(i=e.data,t=r.data,n=e.accessors[0],u=r.accessors[0],a=0;a<i.length;a++)if(n(i,a)!==u(t,a))return!1;return!0}function w(e,r){var i;for(i=0;i<e.length;i+=2)if(e[i+s.HIGH]!==r[i+s.HIGH]||e[i+s.LOW]!==r[i+s.LOW]||K(r[i+s.HIGH]))return!1;return!0}function p(e,r,i,t,n){var u,a,c,l,q;for(u=r.data,a=r.accessors[0],q=0,l=0;l<u.length;l++){if(c=a(u,l),!J(c)||!D(c,i,t,"closed","open")||(n(c,h,1,0),e[q+s.HIGH]!==h[0]||e[q+s.LOW]!==h[1]))return!1;q+=2}return!0}function M(e,r){var i,t,n,u,a;return e.length!==r.length?!1:(t=A(e),n=A(r),t.accessorProtocol||n.accessorProtocol?(i=2,T(e)?T(r)?f(b(e,0),b(r,0)):k(t,n):g(e)?g(r)?f(o(e,0),o(r,0)):d(r)?w(o(e,0),v(r,0)):p(o(e,0),n,0,_,E):d(e)?d(r)?f(v(e,0),v(r,0)):g(r)?w(o(r,0),v(e,0)):p(v(e,0),n,-H,H,U):g(r)?p(o(r,0),t,0,_,E):d(r)?p(v(r,0),t,-H,H,U):(B(e)?(u=j(e,0),i-=1):P(e)&&(u=C(e,0),i-=1),B(r)?(a=j(r,0),i-=1):P(r)&&(a=C(r,0),i-=1),i===0?f(u,a):k(t,n))):f(e,r))}F.exports=M
+});var N=V();module.exports=N;
 /** @license Apache-2.0 */
-
-'use strict';
-
-/**
-* Test if two arrays have equal values.
-*
-* @module @stdlib/array-base-assert-has-equal-values
-*
-* @example
-* var hasEqualValues = require( '@stdlib/array-base-assert-has-equal-values' );
-*
-* var x = [ 0, 0, 1, 0 ];
-* var y = [ 0, 0, 1, 0 ];
-*
-* var out = hasEqualValues( x, y );
-* // returns true
-*/
-
-// MODULES //
-
-var main = require( './main.js' );
-
-
-// EXPORTS //
-
-module.exports = main;
+/** @license Apache-2.0 */
+//# sourceMappingURL=index.js.map
